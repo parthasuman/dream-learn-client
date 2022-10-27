@@ -51,13 +51,17 @@ const Blog = () => {
               4.What is node? How does node work?
             </Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              Learn about Node.js, a JavaScript runtime for building server-side
+              or desktop applications. Node.js is written in C, C++, and
+              JavaScript, and it is built on the open-source V8 JavaScript
+              engine which also powers JS in browsers such as Google Chrome. As
+              V8 supports new features in JavaScript, they are incorporated into
+              Node.<br></br>Node work....<br></br>It is a used as backend
+              service where javascript works on the server-side of the
+              application. This way javascript is used on both frontend and
+              backend. Node. js runs on chrome v8 engine which converts
+              javascript code into machine code, it is highly scalable,
+              lightweight, fast, and data-intensive.
             </Accordion.Body>
           </Accordion.Item>
         </Accordion>

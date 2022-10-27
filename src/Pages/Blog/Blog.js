@@ -23,13 +23,15 @@ const Blog = () => {
               implement authentication?
             </Accordion.Header>
             <Accordion.Body>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              The Firebase Realtime Database lets you build rich, collaborative
+              applications by allowing secure access to the database directly
+              from client-side code. Data is persisted locally, and even while
+              offline, realtime events continue to fire, giving the end user a
+              responsive experience. <br></br>Implement Option.....<br></br>
+              Firebase provides multiple ways of authenticating users. You can
+              choose from email authentication, federated identity provider
+              integration like Google, Facebook or Twitter or you can implement
+              authentication on custom server.
             </Accordion.Body>
           </Accordion.Item>
           <Accordion.Item eventKey="2">

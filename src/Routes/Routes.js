@@ -49,7 +49,7 @@ export const routes = createBrowserRouter([
         path: "/course/:id",
         element: <AllCourse></AllCourse>,
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/course/${params.id}`),
+          fetch(`https://dream-server.vercel.app/course/${params.id}`),
       },
       {
         path: "/tutorials/:id",
@@ -59,7 +59,7 @@ export const routes = createBrowserRouter([
           </PrivateRoute>
         ),
         loader: ({ params }) =>
-          fetch(`http://localhost:5000/tutorials/${params.id}`),
+          fetch(`https://dream-server.vercel.app/tutorials/${params.id}`),
       },
     ],
   },

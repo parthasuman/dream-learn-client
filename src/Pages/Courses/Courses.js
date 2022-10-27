@@ -12,7 +12,7 @@ const Courses = () => {
   const [courses, setCourses] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5000/tutorials-courses")
+    fetch("https://dream-server.vercel.app/tutorials-courses")
       .then((res) => res.json())
       .then((data) => setCourses(data));
   }, []);

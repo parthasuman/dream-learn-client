@@ -6,11 +6,11 @@ import { initializeApp } from "firebase/app";
 // Your web app's Firebase configuration
 const firebaseConfig = {
   apiKey: "AIzaSyAgz0wFrhy7NBrEZ54s0oBi1Aj-UQjF2IA",
-  authDomain: "dream-learn.firebaseapp.com",
-  projectId: "dream-learn",
-  storageBucket: "dream-learn.appspot.com",
-  messagingSenderId: "706603546978",
-  appId: "1:706603546978:web:64d13af7c44f5c3595143b",
+  authDomain: process.env.REACT_APP_authDomain,
+  projectId: process.env.REACT_APP_projectId,
+  storageBucket: process.env.REACT_APP_storageBucket,
+  messagingSenderId: process.env.REACT_APP_messagingSenderId,
+  appId: process.env.REACT_APP_appId,
 };
 
 // Initialize Firebase
